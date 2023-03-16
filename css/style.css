@@ -1,0 +1,61 @@
+*, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main_image {
+    height: 350px;
+} 
+
+.refresh {
+    position: absolute;
+    left: 55%;
+}
+
+.refresh_img {
+    width: 40px;
+}
+
+.button_mood {
+  background-color: #ff4500;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.button_inactive {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+footer a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
